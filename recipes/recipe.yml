@@ -19,5 +19,9 @@ modules:
       packages:
         - taidan
 
+  - type: script
+    snippets:
+      - systemctl enable taidan-initial-setup-reconfiguration.service
+
   - type: signing
 
